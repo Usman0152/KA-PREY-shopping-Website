@@ -1,0 +1,168 @@
+.navbar{
+    background-color: teal !important;
+}
+.nav-link{
+    color: whitesmoke !important;
+    font-weight: 500 !important;
+    
+}
+:hover.nav-link{
+    color: cornflowerblue !important;
+}
+.navbar-brand{
+    color: darkgreen !important;
+    font-weight: bold !important;
+}
+.fa {
+    font-size: 25px !important;
+}
+.col1{
+    box-shadow: 2px 4px 5px grey !important;
+    background-color: rgb(236, 191, 93) ;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    width: 20px;
+    height: 26px;
+    font-weight: 500 !important   ;
+    
+}
+.navbar{
+    margin-top: 5px;
+}
+.discount{
+    text-decoration: line-through ;
+    
+}
+.card{
+    width: 200px !important;
+    height: auto !important;
+ margin-top: 10px ;   
+ box-shadow: 1px 2px 3px rgb(80, 80, 80);
+}
+.card-text1{
+    font-size: 13px;
+    text-decoration: line-through;
+}
+.card-text{
+    color: red;
+    font: 600;
+}
+:hover.btn{
+   background-color: red !important;
+}
+.card-text2{
+    font-size: 12px;
+    position: absolute;
+    right: 94px !important;
+    top: 417px;
+}
+.navbar-text{
+    font-weight: 500;
+}
+.card-text3{
+    position: absolute;
+    top: 395px;
+    right: 91px;
+    font-size: 13px;
+}
+
+.page-footer{
+    background-color: rgba(175, 152, 126, 0.815);
+}
+:hover.link{
+text-decoration: none;
+color:red;
+}
+:hover.name{
+    color: cornflowerblue !important;
+    text-decoration: none !important;
+}
+.card-text4{
+    position: absolute;
+    top: 318px;
+    left: 74px;
+    font-size:  12px;
+}
+.card-text5{
+    position: absolute;
+    top: 368px;
+    left: 74px;
+    font-size:  12px;
+}
+.card-text6{
+    position: absolute;
+    top: 418px;
+    left: 72px;
+    font-size:  12px;
+}
+.card-text7{
+    position: absolute;
+    top: 385px;
+    left: 72px;
+    font-size:  12px;
+}
+.card-text8{
+    position: absolute;
+    top: 419px;
+    left: 72px;
+    font-size:  12px;
+}
+.display-4{
+    text-align: center;
+    font-weight: 600 !important;
+    color: rgb(150, 147, 147);
+    margin-top: 10px;
+}
+.display{
+    color: rgb(150, 147, 147);
+    margin-left: 21px ;
+}
+.pagination{
+    margin-top: 12px;
+    justify-content: center;
+}
+:hover.dropdown-item{
+background-color: rgb(94, 155, 226) !important;
+}
+.text-justify{
+margin-left: 50px;
+margin-right: 50px;
+color: rgb(109, 107, 107);
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.cards{
+    width: 450px !important;
+    margin-left: 20px;
+    
+}
+@media (min-width: 100px) and (max-width: 770px){
+
+    .fa-child.fa-gamepad.fa-tags{
+        margin-left: 120px;
+    }    
+.fa-star-half-o{
+    margin-left: 15px;
+}
+.name{
+    margin-right: 130px;
+}
+.carda.cardb{
+    margin-left: 10px;
+    width: 160px !important;
+    height: 70px !important;
+    margin-right: 100px !important;
+}
+}
+
+@media (min-width: 50px) and (max-width: 550px){
+.card-body{
+    display: inline-block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+}
